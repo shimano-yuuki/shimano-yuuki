@@ -62,14 +62,6 @@ class Developer {
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shimano-yuuki&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41" />
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shimano-yuuki&theme=chartreuse_dark" />
 
-### 📊 Commit Activity
-
-<img src="https://ghchart.rshah.org/00ff41/shimano-yuuki" alt="GitHub Commit Chart" width="98%" />
-
-### 🏆 Achievements
-
-<img src="https://github-profile-trophy.vercel.app/?username=shimano-yuuki&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7" width="98%" />
-
 
 
 ![](https://komarev.com/ghpvc/?username=shimano-yuuki&color=00ff41&style=for-the-badge&label=VISITORS)
