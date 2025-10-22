@@ -1,10 +1,77 @@
-<p align="left"> 
-  <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shimano-yuuki&layout=compact&show_icons=true&theme=onedark" />
-  <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=shimano-yuuki&theme=onedark&show_icons=ture" />
+<div align="center">
+
+```
+██╗   ██╗██╗   ██╗██╗   ██╗██╗  ██╗██╗    ███████╗██╗  ██╗██╗███╗   ███╗ █████╗ ███╗   ██╗ ██████╗ 
+╚██╗ ██╔╝██║   ██║██║   ██║██║ ██╔╝██║    ██╔════╝██║  ██║██║████╗ ████║██╔══██╗████╗  ██║██╔═══██╗
+ ╚████╔╝ ██║   ██║██║   ██║█████╔╝ ██║    ███████╗███████║██║██╔████╔██║███████║██╔██╗ ██║██║   ██║
+  ╚██╔╝  ██║   ██║██║   ██║██╔═██╗ ██║    ╚════██║██╔══██║██║██║╚██╔╝██║██╔══██║██║╚██╗██║██║   ██║
+   ██║   ╚██████╔╝╚██████╔╝██║  ██╗██║    ███████║██║  ██║██║██║ ╚═╝ ██║██║  ██║██║ ╚████║╚██████╔╝
+   ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ 
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%3E+Initializing+system...;%3E+Loading+Flutter+modules...;%3E+Flutter+Developer+%7C+Mobile+Engineer;%3E+Access+granted.+Welcome." alt="Typing SVG" />
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+
+</div>
+
+## 🖥️ System Status
+
+```bash
+┌──(yuuki@shimano)-[~]
+└─$ cat tech_stack.dart
+```
+
+<div align="center">
+
+```dart
+class Developer {
+  final String name = "Yuuki Shimano";
+  final String role = "Flutter Developer";
+  final List<String> techStack = [
+    "Flutter 🦋",
+    "Dart 🎯", 
+    "Firebase 🔥"
+  ];
+  
+  void code() {
+    print("Building amazing mobile apps...");
+  }
+}
+```
+
+</div>
+
+## 🔧 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase&theme=dark" />
 </p>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=shimano-yuuki&theme=onedark&column=7
-)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
+## 📡 Stats Dashboard
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shimano-yuuki&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=00ff41&ring_color=00ff41" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=shimano-yuuki&theme=chartreuse-dark&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakNum=00ff41&sideNums=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=00ff41" />
+
+### 🎯 Language Usage
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shimano-yuuki&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shimano-yuuki&theme=chartreuse_dark" />
+
+### 📊 Commit Activity
+
+<img src="https://ghchart.rshah.org/00ff41/shimano-yuuki" alt="GitHub Commit Chart" width="98%" />
+
+### 🏆 Achievements
+
+<img src="https://github-profile-trophy.vercel.app/?username=shimano-yuuki&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7" width="98%" />
 
 
 
+![](https://komarev.com/ghpvc/?username=shimano-yuuki&color=00ff41&style=for-the-badge&label=VISITORS)
+
+</div>
