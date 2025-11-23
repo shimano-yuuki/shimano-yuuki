@@ -45,11 +45,6 @@ class Developer {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shimano-yuuki&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=00ff41&ring_color=00ff41" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=shimano-yuuki&theme=chartreuse-dark&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakNum=00ff41&sideNums=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=00ff41" />
-
-### 🎯 Language Usage
-
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shimano-yuuki&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41" />
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shimano-yuuki&theme=chartreuse_dark" />
 
