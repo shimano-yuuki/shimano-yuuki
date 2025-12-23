@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%3E+Initializing+system...;%3E+Loading+Flutter+modules...;%3E+Flutter+Developer+%7C+Mobile+Engineer;%3E+Access+granted.+Welcome." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=%3E+WelComeMyProfile!!;%3E+Loading+Description...;%3E+Flutter+Developer+%7C+Mobile+Engineer;%3E+Access+granted." alt="Typing SVG" />
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
