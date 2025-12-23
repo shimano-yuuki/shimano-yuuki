@@ -4,35 +4,6 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
-</div>
-
-## 🖥️ System Status
-
-```bash
-┌──(yuuki@shimano)-[~]
-└─$ cat tech_stack.dart
-```
-
-<div align="center">
-
-```dart
-class Developer {
-  final String name = "Yuuki Shimano";
-  final String role = "Flutter Developer";
-  final List<String> techStack = [
-    "Flutter 🦋",
-    "Dart 🎯", 
-    "Firebase 🔥"
-  ];
-  
-  void code() {
-    print("Building amazing mobile apps...");
-  }
-}
-```
-
-</div>
-
 ## 🔧 Tech Stack
 
 <p align="center">
