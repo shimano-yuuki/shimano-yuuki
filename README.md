@@ -20,6 +20,7 @@
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shimano-yuuki&theme=chartreuse_dark" />
 
 
+![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=aura)
 
 ![](https://komarev.com/ghpvc/?username=shimano-yuuki&color=00ff41&style=for-the-badge&label=VISITORS)
 
