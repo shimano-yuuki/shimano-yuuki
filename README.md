@@ -10,7 +10,6 @@
 </div>
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=shimano-yuuki&count_private=true&include_all_commits=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=00ff41&icon_color=00ff41" />
 <img src="https://skillicons.dev/icons?i=flutter,dart,firebase&theme=dark" />
 <img src="https://komarev.com/ghpvc/?username=shimano-yuuki&color=00ff41&style=for-the-badge&label=VISITORS" />
 </div>
