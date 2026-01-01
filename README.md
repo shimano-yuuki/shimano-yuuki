@@ -4,17 +4,15 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shimano-yuuki&theme=chartreuse-dark&hide_border=true&area=true" width="100%" />
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="./green-divider.svg" width="100%">
+
 <!-- ========== タイピングアニメーション ========== -->
 <!-- テキスト変更: lines= の部分を編集 -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=%3E+WelComeMyProfile!!;%3E+Loading+Description...;%3E+Flutter+Developer+%7C+Mobile+Engineer;%3E+Access+granted." alt="Typing SVG" />
 </div>
 
-
 <!-- ========== GitHub統計情報セクション ========== -->
-<h2 align="center">📊 GitHub Stats</h2>
-
 <!-- プロフィール詳細カード（コミット履歴グラフ） -->
 <div align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shimano-yuuki&theme=chartreuse_dark" alt="profile-details" width="100%" />
@@ -39,8 +37,7 @@
   <!-- 右: 使用言語トップ8 -->
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
+<img src="./green-divider.svg" width="100%">
 
 <!-- ========== 技術スタックセクション ========== -->
 <h2 align="center">🛠️ Tech Stack</h2>
@@ -49,10 +46,10 @@
 <!-- icons?i= の後に使用技術を追加・削除可能 -->
 <!-- 利用可能なアイコン: https://skillicons.dev -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,git,github,vscode,androidstudio,figma,postman,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,graphql,git,github,vscode,androidstudio,figma,postman,linux&theme=dark" />
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="./green-divider.svg" width="100%">
 
 <!-- ========== バッジセクション ========== -->
 <div align="center">
@@ -64,4 +61,4 @@
 </div>
 
 <!-- ========== フッター装飾 ========== -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=100&section=footer" width="100%"/>
