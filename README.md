@@ -1,5 +1,10 @@
 <!-- ========== ヘッダー装飾 ========== -->
+<!-- 年間のコミット活動グラフ -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shimano-yuuki&theme=chartreuse-dark&hide_border=true&area=true" width="100%" />
+</div>
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 <!-- ========== タイピングアニメーション ========== -->
 <!-- テキスト変更: lines= の部分を編集 -->
 <div align="center">
@@ -45,16 +50,6 @@
 <!-- 利用可能なアイコン: https://skillicons.dev -->
 <div align="center">
   <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,git,github,vscode,androidstudio,figma,postman,linux&theme=dark" />
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<!-- ========== コントリビューショングラフ ========== -->
-<h2 align="center">📈 Contribution Graph</h2>
-
-<!-- 年間のコミット活動グラフ -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shimano-yuuki&theme=chartreuse-dark&hide_border=true&area=true" width="100%" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
