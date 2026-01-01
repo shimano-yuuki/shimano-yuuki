@@ -4,8 +4,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shimano-yuuki&theme=chartreuse-dark&hide_border=true&area=true" width="100%" />
 </div>
 
-<img src="./green-divider.svg" width="100%">
-
 <!-- ========== タイピングアニメーション ========== -->
 <!-- テキスト変更: lines= の部分を編集 -->
 <div align="center">
@@ -37,11 +35,6 @@
   <!-- 右: 使用言語トップ8 -->
 </div>
 
-<img src="./green-divider.svg" width="100%">
-
-<!-- ========== 技術スタックセクション ========== -->
-<h2 align="center">🛠️ Tech Stack</h2>
-
 <!-- スキルアイコン -->
 <!-- icons?i= の後に使用技術を追加・削除可能 -->
 <!-- 利用可能なアイコン: https://skillicons.dev -->
@@ -49,7 +42,6 @@
   <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,graphql,git,github,vscode,androidstudio,figma,postman,linux&theme=dark" />
 </div>
 
-<img src="./green-divider.svg" width="100%">
 
 <!-- ========== バッジセクション ========== -->
 <div align="center">
