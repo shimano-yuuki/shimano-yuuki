@@ -6,10 +6,6 @@
 
 <!-- ========== タイピングアニメーション ========== -->
 <!-- テキスト変更: lines= の部分を編集 -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=%3E+WelComeMyProfile!!;%3E+Loading+Description...;%3E+Flutter+Developer+%7C+Mobile+Engineer;%3E+Access+granted." alt="Typing SVG" />
-</div>
-
 <!-- ========== GitHub統計情報セクション ========== -->
 <!-- プロフィール詳細カード（コミット履歴グラフ） -->
 <div align="center">
@@ -50,6 +46,11 @@
   <img src="https://komarev.com/ghpvc/?username=shimano-yuuki&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS" />
   <!-- フォロワー数 -->
   <img src="https://img.shields.io/github/followers/shimano-yuuki?style=for-the-badge&color=00ff41&labelColor=1a1a1a&logo=github" />
+</div>
+
+<!-- マトリックス風バイナリコード -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2000&pause=0&color=00FF41&center=true&vCenter=true&repeat=true&width=1000&height=40&lines=01001000+01100101+01101100+01101100+01101111+00100001+01010111+01100101+01101100+01100011+01101111+01101101+01100101;%3E+System.boot()...+[OK];%3E+Loading+neural_network.dart...+[DONE];%3E+Initializing+Flutter_SDK...+[SUCCESS]" alt="Matrix" />
 </div>
 
 <!-- ========== フッター装飾 ========== -->
