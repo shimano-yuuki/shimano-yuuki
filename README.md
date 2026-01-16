@@ -4,8 +4,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shimano-yuuki&theme=chartreuse-dark&hide_border=true&area=true" width="100%" />
 </div>
 
-<!-- ========== タイピングアニメーション ========== -->
-<!-- テキスト変更: lines= の部分を編集 -->
 <!-- ========== GitHub統計情報セクション ========== -->
 <!-- プロフィール詳細カード（コミット履歴グラフ） -->
 <div align="center">
