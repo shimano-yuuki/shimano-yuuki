@@ -33,9 +33,8 @@
 <!-- icons?i= の後に使用技術を追加・削除可能 -->
 <!-- 利用可能なアイコン: https://skillicons.dev -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,graphql,git,github,vscode,androidstudio,figma,postman,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,graphql,php,nextjs,html,css,nodejs,npm,mysql,docker,git,github,vscode,androidstudio,figma,postman,linux&theme=dark" />
 </div>
-
 
 <!-- ========== バッジセクション ========== -->
 <div align="center">
