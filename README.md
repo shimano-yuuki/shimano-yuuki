@@ -1,47 +1,49 @@
-<!-- ========== ヘッダー装飾 ========== -->
-<!-- 年間のコミット活動グラフ -->
+<!-- ========== ヘッダー ========== -->
+<!-- 文言は lines= の中身をセミコロン区切りで編集 -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shimano-yuuki&theme=chartreuse-dark&hide_border=true&area=true" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=520&height=60&lines=shimano+yuuki;quiet+code%2C+solid+things" alt="header" />
 </div>
-<!-- ========== GitHub統計情報セクション ========== -->
-<!-- プロフィール詳細カード（コミット履歴グラフ） -->
+
+<br />
+
+<!-- ========== 見せ場: 草を食べる蛇 ========== -->
+<!-- .github/workflows/snake.yml が output ブランチに SVG を生成する -->
 <div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shimano-yuuki&theme=chartreuse_dark" alt="profile-details" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shimano-yuuki/shimano-yuuki/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shimano-yuuki/shimano-yuuki/output/snake.svg" />
+    <img alt="contribution snake animation" src="https://raw.githubusercontent.com/shimano-yuuki/shimano-yuuki/output/snake.svg" width="100%" />
+  </picture>
 </div>
-<!-- 言語統計 3列レイアウト -->
+
+<br />
+
+<!-- ========== 統計（背景透過・枠なし / ライト・ダーク両対応） ========== -->
 <div align="center">
-  <!-- 左: リポジトリごとの言語比率 -->
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shimano-yuuki&theme=chartreuse_dark" width="32%" />
-  <!-- 中央: コミットで最も使用している言語 -->
-  <!-- exclude= で除外する言語を指定可能 -->
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shimano-yuuki&theme=chartreuse_dark&exclude=html,css" width="32%" />
-  <!-- 右: 総合統計（コミット数、PR、Issue数） -->
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=shimano-yuuki&theme=chartreuse_dark" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shimano-yuuki&show_icons=true&bg_color=00000000&hide_border=true&title_color=39d353&icon_color=39d353&text_color=8b949e" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shimano-yuuki&layout=compact&langs_count=6&bg_color=00000000&hide_border=true&title_color=39d353&text_color=8b949e" height="150" />
 </div>
-<!-- アクティブ時間 & 言語ランキング -->
+
+<br />
+
+<!-- ========== 技術スタック ========== -->
+<!-- アイコン一覧: https://skillicons.dev -->
 <div align="center">
-  <!-- 左: 生産的な時間帯グラフ -->
-  <!-- utcOffset= でタイムゾーン調整（9=日本時間） -->
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shimano-yuuki&theme=chartreuse_dark&utcOffset=9" width="49%" />
-  <!-- 右: 使用言語トップ8 -->
+  <img src="https://skillicons.dev/icons?i=go,typescript,dart,php,nextjs,flutter&theme=dark" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,firebase,docker,git,linux&theme=dark" />
 </div>
-<!-- スキルアイコン -->
-<!-- icons?i= の後に使用技術を追加・削除可能 -->
-<!-- 利用可能なアイコン: https://skillicons.dev -->
+
+<br />
+
+<!-- ========== バッジ ========== -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,graphql,php,typescript,go,nextjs,html,css,nodejs,npm,mysql,postgres,docker,git,github,vscode,androidstudio,figma,postman,linux&theme=dark" />
+  <img src="https://komarev.com/ghpvc/?username=shimano-yuuki&color=39d353&style=flat-square&label=views" />
+  <img src="https://img.shields.io/github/followers/shimano-yuuki?style=flat-square&color=39d353&labelColor=0d1117&logo=github&label=followers" />
 </div>
-<!-- ========== バッジセクション ========== -->
+
+<!-- ========== 使う場合はコメントを外す: 年間アクティビティの折れ線グラフ ==========
 <div align="center">
-  <!-- プロフィール訪問者数 -->
-  <!-- color= で色変更可能 -->
-  <img src="https://komarev.com/ghpvc/?username=shimano-yuuki&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS" />
-  <!-- フォロワー数 -->
-  <img src="https://img.shields.io/github/followers/shimano-yuuki?style=for-the-badge&color=00ff41&labelColor=1a1a1a&logo=github" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shimano-yuuki&theme=github-compact&hide_border=true&area=true&color=39d353&line=39d353&point=39d353&bg_color=00000000" width="100%" />
 </div>
-<!-- マトリックス風バイナリコード -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2000&pause=0&color=00FF41&center=true&vCenter=true&repeat=true&width=1000&height=40&lines=01001000+01100101+01101100+01101100+01101111+00100001+01010111+01100101+01101100+01100011+01101111+01101101+01100101;%3E+System.boot()...+[OK];%3E+Loading+neural_network.dart...+[DONE];%3E+Initializing+Flutter_SDK...+[SUCCESS]" alt="Matrix" />
-</div>
-<!-- ========== フッター装飾 ========== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=100&section=footer" width="100%"/>
+-->
