@@ -45,8 +45,9 @@ function issueUrl(hand) {
 
 function badge(hand) {
   const { emoji, ja } = HANDS[hand]
-  const label = encodeURIComponent(`${emoji} ${ja}`)
-  return `https://img.shields.io/badge/${label}-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353`
+  const label = encodeURIComponent(`${emoji}  ${ja}`)
+  // ライト/ダークどちらの地色でも沈まないよう、白抜きが成立する濃さの緑を使う
+  return `https://img.shields.io/badge/${label}-1a7f37?style=flat-square&labelColor=1a7f37`
 }
 
 export function renderSection(state, now) {
@@ -68,7 +69,7 @@ export function renderSection(state, now) {
   return `${BEGIN}
 <div align="center">
 
-**押すだけで対戦できます。Issueが立って、数秒後にBotが手を出します。**
+押すとIssueが立ち、数秒後にBotが手を出して結果を返します。
 
 ${buttons}
 

@@ -32,6 +32,10 @@ jobs:
         with:
           node-version: 20
 
+      # ヘッダーとスタック表記。APIを使わないので毎回同じ結果になる
+      - name: generate brand svg
+        run: node scripts/brand.mjs
+
       - name: generate boot log svg
         run: node scripts/bootlog.mjs "${{ github.repository_owner }}" assets/bootlog.svg
         env:

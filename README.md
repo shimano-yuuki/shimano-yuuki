@@ -1,31 +1,15 @@
-<!-- ========================= HEADER ========================= -->
+<!-- 自作SVG。文言・スタックは scripts/brand.mjs を編集して再生成する。
+     色は scripts/theme.mjs に集約してあるので、変えると全部の自作SVGに効く。 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=shimano%20yuuki&fontSize=46&fontColor=39d353&animation=fadeIn" width="100%" />
-</div>
-<!-- 文言は lines= の中身をセミコロン区切りで編集 -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=39D353&center=true&vCenter=true&width=560&height=40&lines=Flutter+%2F+Go+%2F+Next.js;quiet+code%2C+solid+things;still+shipping" alt="tagline" />
+  <img src="./assets/header.svg" alt="shimano yuuki" width="100%" />
 </div>
 
-<!-- ========================= BOOT LOG =========================
-     scripts/bootlog.mjs が GitHub API から実データを取って生成する。
-     数字はすべて本物（リポジトリ数・言語比率・最終pushなど）。 -->
+<!-- 実データのブートログ。scripts/bootlog.mjs が GitHub API から生成する。 -->
 <div align="center">
   <img src="./assets/bootlog.svg" alt="boot log" width="100%" />
 </div>
 
-<!-- ========================= 3D CONTRIBUTION =========================
-     .github/workflows/profile.yml が生成。差し替え候補:
-       profile-night-view.svg     夜景（これ）
-       profile-night-rainbow.svg  夜景・虹色
-       profile-gitblock.svg       マイクラのブロック風
-       profile-season-animate.svg 季節で色が変わる + アニメーション -->
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3d contribution calendar" width="100%" />
-</div>
-
-<!-- ========================= SNAKE =========================
-     .github/workflows/snake.yml が output ブランチに生成 -->
+<!-- 草を食べる蛇。.github/workflows/snake.yml が output ブランチに生成する。 -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shimano-yuuki/shimano-yuuki/output/snake-dark.svg" />
@@ -34,42 +18,30 @@
   </picture>
 </div>
 
----
-
-## じゃんけん
-
-<!-- ここから ↓ は scripts/janken.mjs が自動生成する。手で書き換えても次の対戦で上書きされる。 -->
-<!-- janken starts -->
+<!-- 3D草グラフ。蛇と同じデータの別表現なので普段は出さない。
+     入れ替えたいときは蛇のブロックと差し替える。
+     profile.yml が profile-3d-contrib/ 以下に複数の絵柄を生成している。
 <div align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3d contribution calendar" width="100%" />
+</div>
+-->
 
-**押すだけで対戦できます。Issueが立って、数秒後にBotが手を出します。**
-
-  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Arock&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8A%20%E3%82%B0%E3%83%BC-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353" alt="rock" /></a>
-  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Ascissors&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8C%EF%B8%8F%20%E3%83%81%E3%83%A7%E3%82%AD-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353" alt="scissors" /></a>
-  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Apaper&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8B%20%E3%83%91%E3%83%BC-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353" alt="paper" /></a>
-
-`BOT 1W` &nbsp;·&nbsp; `1L` &nbsp;·&nbsp; `0D` &nbsp;·&nbsp; `win rate 50%` &nbsp;·&nbsp; `2 games`
-
+<div align="center">
+  <img src="./assets/stack.svg" alt="stack" width="100%" />
 </div>
 
-| 結果 | 挑戦者 | 挑戦者の手 | BOTの手 | |
-|---|---|---|---|---|
-| `YOU WIN` | @shimano-yuuki | ✌️ チョキ | ✋ パー | 0m ago |
-| `BOT WIN` | @shimano-yuuki | ✋ パー | ✌️ チョキ | 2m ago |
-<!-- janken ends -->
-
----
-
-<!-- ========================= STATS =========================
-     vercel から直リンクせず、profile.yml で取得してリポジトリに保存したものを使う。
-     vercel 側が落ちても README が壊れない（rickstaa/rickstaa と同じ方針）。 -->
+<!-- statsカードは vercel から直リンクせず profile.yml で取得して保存したものを使う。
+     vercel が落ちても README が壊れない。 -->
 <div align="center">
   <img src="./assets/stats.svg" alt="github stats" height="150" />
   <img src="./assets/top-langs.svg" alt="top languages" height="150" />
 </div>
+
+<!-- 年間アクティビティの折れ線。蛇と同じデータなので普段は出さない。
 <div align="center">
   <img src="./assets/activity-graph.svg" alt="activity graph" width="100%" />
 </div>
+-->
 
 ## 最近書いたコード
 
@@ -117,22 +89,32 @@ flowchart LR
   class DOCKER note
 ```
 
-<!-- ========================= STACK =========================
-     アイコン一覧: https://skillicons.dev -->
+## じゃんけん
+
+<!-- ここから ↓ は scripts/janken.mjs が自動生成する。手で書き換えても次の対戦で上書きされる。 -->
+<!-- janken starts -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=dart,ts,go,php,flutter,nextjs,react,tailwind,firebase,postgres,mysql,docker&theme=dark&perline=6" />
+
+押すとIssueが立ち、数秒後にBotが手を出して結果を返します。
+
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Arock&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8A%20%20%E3%82%B0%E3%83%BC-1a7f37?style=flat-square&labelColor=1a7f37" alt="rock" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Ascissors&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8C%EF%B8%8F%20%20%E3%83%81%E3%83%A7%E3%82%AD-1a7f37?style=flat-square&labelColor=1a7f37" alt="scissors" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Apaper&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8B%20%20%E3%83%91%E3%83%BC-1a7f37?style=flat-square&labelColor=1a7f37" alt="paper" /></a>
+
+`BOT 1W` &nbsp;·&nbsp; `1L` &nbsp;·&nbsp; `0D` &nbsp;·&nbsp; `win rate 50%` &nbsp;·&nbsp; `2 games`
+
 </div>
 
-<!-- ========================= BADGES ========================= -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=shimano-yuuki&color=39d353&style=for-the-badge&label=VIEWS" />
-  <img src="https://img.shields.io/github/followers/shimano-yuuki?style=for-the-badge&color=39d353&labelColor=0d1117&logo=github&label=FOLLOWERS" />
-  <img src="https://img.shields.io/github/stars/shimano-yuuki?style=for-the-badge&color=39d353&labelColor=0d1117&logo=github&label=STARS" />
-</div>
+| 結果 | 挑戦者 | 挑戦者の手 | BOTの手 | |
+|---|---|---|---|---|
+| `YOU WIN` | @shimano-yuuki | ✌️ チョキ | ✋ パー | 2m ago |
+| `BOT WIN` | @shimano-yuuki | ✋ パー | ✌️ チョキ | 5m ago |
+<!-- janken ends -->
 
-<!-- ========================= WORKS =========================
-     作ったアプリの動作GIFを assets/ に置いてコメントを外す。
+<!-- 作ったアプリの動作GIFを assets/ に置いてコメントを外す。
      シミュレータの画面収録を GIF にして 3本並べるのが一番効く。
+## つくったもの
+
 <div align="center">
   <img src="./assets/mshare.gif" width="30%" />
   <img src="./assets/strength-chronicle.gif" width="30%" />
@@ -141,5 +123,5 @@ flowchart LR
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%" />
+  <img src="https://komarev.com/ghpvc/?username=shimano-yuuki&style=flat-square&color=39d353&labelColor=57606a&label=views" alt="views" />
 </div>

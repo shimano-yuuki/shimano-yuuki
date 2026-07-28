@@ -7,6 +7,7 @@
 import { writeFile, mkdir } from 'node:fs/promises'
 import { dirname } from 'node:path'
 import { pathToFileURL } from 'node:url'
+import { FONT, CSS_VARS, esc } from './theme.mjs'
 
 const QUERY = `
 query($login: String!) {
@@ -89,8 +90,6 @@ function ago(ms) {
   return `${Math.floor(hours / 24)}d ago`
 }
 
-const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-
 const COLS = 58 // ドットリーダーを揃える桁数
 
 export function renderSvg(d) {
@@ -124,23 +123,24 @@ export function renderSvg(d) {
   const delay = (i) => (0.2 + i * 0.13).toFixed(2)
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(d.login)} boot log">
-  <style>
-    .ln, .prompt { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; }
-    .mark { fill: #39d353; }
-    .key  { fill: #8b949e; }
-    .dot  { fill: #30363d; }
-    .val  { fill: #39d353; font-weight: 600; }
-    .head { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; fill: #6e7681; }
+  <style>${CSS_VARS}
+    .ln, .prompt, .head { font-family: ${FONT}; font-size: 14px; }
+    .mark { fill: var(--accent); }
+    .key  { fill: var(--muted); }
+    .dot  { fill: var(--line); }
+    .val  { fill: var(--fg); font-weight: 600; }
+    .head { font-size: 11px; letter-spacing: 2px; fill: var(--muted); }
     .ln { opacity: 0; animation: reveal 0.01s linear forwards; }
 ${rows.map((_, i) => `    .l${i} { animation-delay: ${delay(i)}s; }`).join('\n')}
     @keyframes reveal { to { opacity: 1; } }
-    .cursor { fill: #39d353; opacity: 0; animation: blink 1s steps(1) infinite; animation-delay: ${delay(rows.length)}s; }
+    .cursor { fill: var(--accent); opacity: 0; animation: blink 1.1s steps(1) infinite; animation-delay: ${delay(rows.length)}s; }
     @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .frame { fill: none; stroke: var(--line); }
+    .sep { stroke: var(--line); }
   </style>
-  <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="10" fill="#0d1117" stroke="#30363d" />
-  <line x1="0" y1="38" x2="${width}" y2="38" stroke="#21262d" />
-  <circle cx="22" cy="19" r="5.5" fill="#ff5f57" /><circle cx="41" cy="19" r="5.5" fill="#febc2e" /><circle cx="60" cy="19" r="5.5" fill="#28c840" />
-  <text class="head" x="${width / 2}" y="23" text-anchor="middle">${esc(d.login)} — boot</text>
+  <rect class="frame" x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="8" />
+  <line class="sep" x1="0" y1="38" x2="${width}" y2="38" />
+  <text class="head" x="${X}" y="23">${esc(d.login.toUpperCase())} / BOOT</text>
 ${lines}
   <text class="ln l${rows.length - 1} prompt" x="${X}" y="${cursorY + 8}" xml:space="preserve"><tspan class="mark">&gt; </tspan><tspan class="val">READY</tspan></text>
   <rect class="cursor" x="${X + 8.4 * 8}" y="${cursorY - 3}" width="8" height="15" />
