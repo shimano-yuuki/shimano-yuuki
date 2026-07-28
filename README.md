@@ -48,11 +48,13 @@
   <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Ascissors&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8C%EF%B8%8F%20%E3%83%81%E3%83%A7%E3%82%AD-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353" alt="scissors" /></a>
   <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Apaper&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8B%20%E3%83%91%E3%83%BC-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353" alt="paper" /></a>
 
-`BOT 0W` &nbsp;·&nbsp; `0L` &nbsp;·&nbsp; `0D` &nbsp;·&nbsp; `win rate --%` &nbsp;·&nbsp; `0 games`
+`BOT 1W` &nbsp;·&nbsp; `0L` &nbsp;·&nbsp; `0D` &nbsp;·&nbsp; `win rate 100%` &nbsp;·&nbsp; `1 games`
 
 </div>
 
-_まだ誰も挑戦していません。_
+| 結果 | 挑戦者 | 挑戦者の手 | BOTの手 | |
+|---|---|---|---|---|
+| `BOT WIN` | @shimano-yuuki | ✋ パー | ✌️ チョキ | 0m ago |
 <!-- janken ends -->
 
 ---
