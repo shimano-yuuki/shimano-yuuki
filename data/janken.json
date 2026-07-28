@@ -1,8 +1,15 @@
 {
   "wins": 1,
-  "losses": 0,
+  "losses": 1,
   "draws": 0,
   "history": [
+    {
+      "user": "shimano-yuuki",
+      "player": "scissors",
+      "bot": "paper",
+      "result": "loss",
+      "at": "2026-07-28T19:05:28.776Z"
+    },
     {
       "user": "shimano-yuuki",
       "player": "paper",
