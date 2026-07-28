@@ -1,23 +1,22 @@
-# 来訪者が Issue を立てるとBotがじゃんけんを返し、READMEの戦績を更新して Issue を閉じる。
-# timburgan/timburgan（Issueでチェスを指す）と同じ仕組み。
+# 来訪者が Issue を立てると BOT が Connect Four を打ち返し、盤面と README を更新して Issue を閉じる。
 #
 # Issueタイトルは誰でも自由に書ける文字列なので、run: に ${{ ... }} で直接埋めず
 # 必ず env 経由で渡すこと（埋めるとコマンドインジェクションになる）。
 
-name: janken
+name: connect four
 
 on:
   issues:
     types: [opened]
 
-# 同時に複数のIssueが立っても push が衝突しないよう直列化する
+# 同時に複数のIssueが立っても盤面と push が壊れないよう直列化する
 concurrency:
-  group: janken
+  group: connect4
   cancel-in-progress: false
 
 jobs:
   play:
-    if: startsWith(github.event.issue.title, 'janken:')
+    if: startsWith(github.event.issue.title, 'c4:')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -33,9 +32,8 @@ jobs:
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
-          OWNER: ${{ github.repository_owner }}
           REPO: ${{ github.repository }}
-        run: node scripts/janken.mjs
+        run: node scripts/connect4.mjs
 
       - name: commit
         env:
@@ -43,11 +41,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A README.md data
+          git add -A README.md data assets
           if git diff --staged --quiet; then
             echo "no change"
           else
-            git commit -m "chore: janken vs @$ISSUE_USER"
+            git commit -m "chore: connect four vs @$ISSUE_USER"
             git pull --rebase --autostash origin main
             git push
           fi

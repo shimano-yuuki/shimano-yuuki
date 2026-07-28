@@ -50,66 +50,28 @@
 _初回の `generate profile assets` 実行で埋まります。_
 <!-- activity ends -->
 
-## 構成
+## Connect Four
 
-<!-- mermaid は GitHub がネイティブでレンダリングする。画像ではないので
-     ダークモードに自動追従し、外部サービスにも依存しない。 -->
-
-```mermaid
-flowchart LR
-  subgraph CLIENT
-    FL["Flutter<br/>iOS · Android"]
-    NX["Next.js<br/>React · TypeScript"]
-  end
-
-  subgraph API
-    GO["Go · Gin<br/>:8080"]
-    LV["Laravel<br/>PHP"]
-  end
-
-  subgraph DATA
-    PG[("PostgreSQL")]
-    MY[("MySQL")]
-    FB["Firebase<br/>Auth · Storage"]
-  end
-
-  FL --> FB
-  NX --> GO
-  NX --> LV
-  GO --> PG
-  LV --> MY
-
-  DOCKER["Docker Compose — 全部これで立ち上げる"]
-  DOCKER -.-> API
-  DOCKER -.-> DATA
-
-  classDef box fill:transparent,stroke:#39d353,stroke-width:1.5px
-  classDef note fill:transparent,stroke:#30363d
-  class FL,NX,GO,LV,PG,MY,FB box
-  class DOCKER note
-```
-
-## じゃんけん
-
-<!-- ここから ↓ は scripts/janken.mjs が自動生成する。手で書き換えても次の対戦で上書きされる。 -->
-<!-- janken starts -->
+<!-- ここから ↓ は scripts/connect4.mjs が自動生成する。手で書き換えても次の一手で上書きされる。 -->
+<!-- connect4 starts -->
 <div align="center">
 
-押すとIssueが立ち、数秒後にBotが手を出して結果を返します。
+<img src="./assets/connect4.svg" alt="connect four" width="440" />
 
-  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Arock&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8A%20%20%E3%82%B0%E3%83%BC-1a7f37?style=flat-square&labelColor=1a7f37" alt="rock" /></a>
-  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Ascissors&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8C%EF%B8%8F%20%20%E3%83%81%E3%83%A7%E3%82%AD-1a7f37?style=flat-square&labelColor=1a7f37" alt="scissors" /></a>
-  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Apaper&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8B%20%20%E3%83%91%E3%83%BC-1a7f37?style=flat-square&labelColor=1a7f37" alt="paper" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A1&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/1-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 1" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A2&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/2-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 2" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A3&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/3-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 3" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A4&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/4-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 4" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A5&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/5-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 5" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A6&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/6-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 6" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A7&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/7-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 7" /></a>
 
-`BOT 1W` &nbsp;·&nbsp; `1L` &nbsp;·&nbsp; `0D` &nbsp;·&nbsp; `win rate 50%` &nbsp;·&nbsp; `2 games`
+緑があなた、グレーがBOTです。好きな列の番号を押してください。
+
+`BOT 0W` &nbsp;·&nbsp; `0L` &nbsp;·&nbsp; `0D` &nbsp;·&nbsp; `0 games`
 
 </div>
-
-| 結果 | 挑戦者 | 挑戦者の手 | BOTの手 | |
-|---|---|---|---|---|
-| `YOU WIN` | @shimano-yuuki | ✌️ チョキ | ✋ パー | 2m ago |
-| `BOT WIN` | @shimano-yuuki | ✋ パー | ✌️ チョキ | 5m ago |
-<!-- janken ends -->
+<!-- connect4 ends -->
 
 <!-- 作ったアプリの動作GIFを assets/ に置いてコメントを外す。
      シミュレータの画面収録を GIF にして 3本並べるのが一番効く。

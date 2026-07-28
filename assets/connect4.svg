@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="404" viewBox="0 0 436 404" role="img" aria-label="connect four board">
+  <style>
+  :root {
+    --fg: #1f2328;
+    --muted: #59636e;
+    --accent: #1a7f37;
+    --line: #d1d9e0;
+    --faint: #eaeef2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #e6edf3;
+      --muted: #8b949e;
+      --accent: #39d353;
+      --line: #30363d;
+      --faint: #21262d;
+    }
+  }
+    .col { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; fill: var(--muted); text-anchor: middle; }
+    .col.closed { fill: var(--line); }
+    .empty { fill: none; stroke: var(--line); stroke-width: 1.5; }
+    .human { fill: var(--accent); }
+    .bot   { fill: var(--muted); }
+    .frame { fill: none; stroke: var(--line); }
+    .drop { animation: fall .5s cubic-bezier(.45,0,.55,1) backwards; }
+    @keyframes fall { from { transform: translateY(-382px); } to { transform: translateY(0); } }
+  </style>
+  <rect class="frame" x="0.5" y="0.5" width="435" height="403" rx="8" />
+  <text class="col " x="50" y="28">1</text>
+  <text class="col " x="106" y="28">2</text>
+  <text class="col " x="162" y="28">3</text>
+  <text class="col " x="218" y="28">4</text>
+  <text class="col " x="274" y="28">5</text>
+  <text class="col " x="330" y="28">6</text>
+  <text class="col " x="386" y="28">7</text>
+  <circle class="empty" cx="50" cy="74" r="21" />
+  <circle class="empty" cx="106" cy="74" r="21" />
+  <circle class="empty" cx="162" cy="74" r="21" />
+  <circle class="empty" cx="218" cy="74" r="21" />
+  <circle class="empty" cx="274" cy="74" r="21" />
+  <circle class="empty" cx="330" cy="74" r="21" />
+  <circle class="empty" cx="386" cy="74" r="21" />
+  <circle class="empty" cx="50" cy="130" r="21" />
+  <circle class="empty" cx="106" cy="130" r="21" />
+  <circle class="empty" cx="162" cy="130" r="21" />
+  <circle class="empty" cx="218" cy="130" r="21" />
+  <circle class="empty" cx="274" cy="130" r="21" />
+  <circle class="empty" cx="330" cy="130" r="21" />
+  <circle class="empty" cx="386" cy="130" r="21" />
+  <circle class="empty" cx="50" cy="186" r="21" />
+  <circle class="empty" cx="106" cy="186" r="21" />
+  <circle class="empty" cx="162" cy="186" r="21" />
+  <circle class="empty" cx="218" cy="186" r="21" />
+  <circle class="empty" cx="274" cy="186" r="21" />
+  <circle class="empty" cx="330" cy="186" r="21" />
+  <circle class="empty" cx="386" cy="186" r="21" />
+  <circle class="empty" cx="50" cy="242" r="21" />
+  <circle class="empty" cx="106" cy="242" r="21" />
+  <circle class="empty" cx="162" cy="242" r="21" />
+  <circle class="empty" cx="218" cy="242" r="21" />
+  <circle class="empty" cx="274" cy="242" r="21" />
+  <circle class="empty" cx="330" cy="242" r="21" />
+  <circle class="empty" cx="386" cy="242" r="21" />
+  <circle class="empty" cx="50" cy="298" r="21" />
+  <circle class="empty" cx="106" cy="298" r="21" />
+  <circle class="empty" cx="162" cy="298" r="21" />
+  <circle class="empty" cx="218" cy="298" r="21" />
+  <circle class="empty" cx="274" cy="298" r="21" />
+  <circle class="empty" cx="330" cy="298" r="21" />
+  <circle class="empty" cx="386" cy="298" r="21" />
+  <circle class="empty" cx="50" cy="354" r="21" />
+  <circle class="empty" cx="106" cy="354" r="21" />
+  <circle class="empty" cx="162" cy="354" r="21" />
+  <circle class="empty" cx="218" cy="354" r="21" />
+  <circle class="empty" cx="274" cy="354" r="21" />
+  <circle class="empty" cx="330" cy="354" r="21" />
+  <circle class="empty" cx="386" cy="354" r="21" />
+</svg>
