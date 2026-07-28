@@ -10,6 +10,12 @@ on:
   push:
     branches:
       - main
+    # 他のワークフローがコミットする生成物では再発火させない
+    paths-ignore:
+      - "README.md"
+      - "assets/**"
+      - "data/**"
+      - "profile-3d-contrib/**"
 
 jobs:
   generate:

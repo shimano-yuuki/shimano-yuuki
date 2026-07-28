@@ -16,9 +16,9 @@
 
 <!-- ========================= 3D CONTRIBUTION =========================
      .github/workflows/profile.yml が生成。差し替え候補:
-       profile-night-view.svg    夜景（これ）
-       profile-night-rainbow.svg 夜景・虹色
-       profile-gitblock.svg      マイクラのブロック風
+       profile-night-view.svg     夜景（これ）
+       profile-night-rainbow.svg  夜景・虹色
+       profile-gitblock.svg       マイクラのブロック風
        profile-season-animate.svg 季節で色が変わる + アニメーション -->
 <div align="center">
   <img src="./profile-3d-contrib/profile-night-view.svg" alt="3d contribution calendar" width="100%" />
@@ -34,18 +34,51 @@
   </picture>
 </div>
 
-<!-- ========================= STATS ========================= -->
+---
+
+## じゃんけん
+
+<!-- ここから ↓ は scripts/janken.mjs が自動生成する。手で書き換えても次の対戦で上書きされる。 -->
+<!-- janken starts -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shimano-yuuki&show_icons=true&bg_color=00000000&hide_border=true&title_color=39d353&icon_color=39d353&text_color=8b949e" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shimano-yuuki&layout=compact&langs_count=6&bg_color=00000000&hide_border=true&title_color=39d353&text_color=8b949e" height="150" />
-</div>
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shimano-yuuki&theme=github-compact&hide_border=true&area=true&color=39d353&line=39d353&point=39d353&bg_color=00000000" width="100%" />
+
+**押すだけで対戦できます。Issueが立って、数秒後にBotが手を出します。**
+
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Arock&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8A%20%E3%82%B0%E3%83%BC-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353" alt="rock" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Ascissors&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8C%EF%B8%8F%20%E3%83%81%E3%83%A7%E3%82%AD-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353" alt="scissors" /></a>
+  <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=janken%3Apaper&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/%E2%9C%8B%20%E3%83%91%E3%83%BC-0d1117?style=for-the-badge&labelColor=0d1117&color=39d353" alt="paper" /></a>
+
+`BOT 0W` &nbsp;·&nbsp; `0L` &nbsp;·&nbsp; `0D` &nbsp;·&nbsp; `win rate --%` &nbsp;·&nbsp; `0 games`
+
 </div>
 
-<!-- ========================= ARCHITECTURE =========================
-     mermaid は GitHub がネイティブでレンダリングする（画像じゃないので
-     ダークモードにも自動追従し、外部サービスにも依存しない）。 -->
+_まだ誰も挑戦していません。_
+<!-- janken ends -->
+
+---
+
+<!-- ========================= STATS =========================
+     vercel から直リンクせず、profile.yml で取得してリポジトリに保存したものを使う。
+     vercel 側が落ちても README が壊れない（rickstaa/rickstaa と同じ方針）。 -->
+<div align="center">
+  <img src="./assets/stats.svg" alt="github stats" height="150" />
+  <img src="./assets/top-langs.svg" alt="top languages" height="150" />
+</div>
+<div align="center">
+  <img src="./assets/activity-graph.svg" alt="activity graph" width="100%" />
+</div>
+
+## 最近書いたコード
+
+<!-- ここから ↓ は scripts/activity.mjs が自動生成する。 -->
+<!-- activity starts -->
+_初回の `generate profile assets` 実行で埋まります。_
+<!-- activity ends -->
+
+## 構成
+
+<!-- mermaid は GitHub がネイティブでレンダリングする。画像ではないので
+     ダークモードに自動追従し、外部サービスにも依存しない。 -->
 
 ```mermaid
 flowchart LR
