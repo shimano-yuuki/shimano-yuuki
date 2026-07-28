@@ -68,10 +68,10 @@
   <circle class="empty" cx="274" cy="298" r="21" />
   <circle class="empty" cx="330" cy="298" r="21" />
   <circle class="empty" cx="386" cy="298" r="21" />
-  <circle class="empty" cx="50" cy="354" r="21" />
+  <circle class="human drop" style="animation-delay:0.00s" cx="50" cy="354" r="21" />
   <circle class="empty" cx="106" cy="354" r="21" />
   <circle class="empty" cx="162" cy="354" r="21" />
-  <circle class="empty" cx="218" cy="354" r="21" />
+  <circle class="bot drop" style="animation-delay:0.35s" cx="218" cy="354" r="21" />
   <circle class="empty" cx="274" cy="354" r="21" />
   <circle class="empty" cx="330" cy="354" r="21" />
   <circle class="empty" cx="386" cy="354" r="21" />

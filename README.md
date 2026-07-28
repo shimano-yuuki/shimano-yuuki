@@ -66,7 +66,7 @@ _初回の `generate profile assets` 実行で埋まります。_
   <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A6&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/6-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 6" /></a>
   <a href="https://github.com/shimano-yuuki/shimano-yuuki/issues/new?title=c4%3A7&body=%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%20Submit%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82"><img src="https://img.shields.io/badge/7-1a7f37?style=flat-square&labelColor=1a7f37" alt="drop in column 7" /></a>
 
-緑があなた、グレーがBOTです。好きな列の番号を押してください。
+直前の手は @shimano-yuuki。緑があなた、グレーがBOTです。
 
 `BOT 0W` &nbsp;·&nbsp; `0L` &nbsp;·&nbsp; `0D` &nbsp;·&nbsp; `0 games`
 

@@ -40,17 +40,20 @@
       0,
       0,
       0,
+      1,
       0,
       0,
-      0,
-      0,
+      2,
       0,
       0,
       0
     ],
     "over": false,
     "winner": null,
-    "recent": [],
-    "by": null
+    "recent": [
+      35,
+      38
+    ],
+    "by": "shimano-yuuki"
   }
 }
