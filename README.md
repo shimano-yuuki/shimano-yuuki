@@ -47,7 +47,14 @@
 
 <!-- ここから ↓ は scripts/activity.mjs が自動生成する。 -->
 <!-- activity starts -->
-_初回の `generate profile assets` 実行で埋まります。_
+| repository | latest commit | |
+|---|---|---|
+| **[shimano-yuuki](https://github.com/shimano-yuuki/shimano-yuuki)** `JavaScript` | [`chore: connect four vs @shimano-yuuki`](https://github.com/shimano-yuuki/shimano-yuuki/commit/28be0441afb2ef7c30848b24c306b92acf66487f) | 2h ago |
+| **[shimano-yuuki.github.io](https://github.com/shimano-yuuki/shimano-yuuki.github.io)** `TypeScript` | [`WebGL 流体を軸にモノクロームへ全面リデザインする`](https://github.com/shimano-yuuki/shimano-yuuki.github.io/commit/f7decf46abd7ad40e1c4be724fbb29240d02863c) | 3h ago |
+| **[shimanpo](https://github.com/shimano-yuuki/shimanpo)** `TypeScript` | [`fix : about`](https://github.com/shimano-yuuki/shimanpo/commit/a14c0bbdfec37d9a391b3d5b754be6cc575aec37) | 187d ago |
+| **[clash_analytics](https://github.com/shimano-yuuki/clash_analytics)** `PHP` | [`内容の修正`](https://github.com/shimano-yuuki/clash_analytics/commit/0cfe862127c9c691e9d17f94ebc90f6ae63410ad) | 190d ago |
+| **[git_hub_cotribution_app](https://github.com/shimano-yuuki/git_hub_cotribution_app)** `Dart` | [`リードミーの更新`](https://github.com/shimano-yuuki/git_hub_cotribution_app/commit/c3be5f69efd2ac68c2cfd001b37e64a5404b7bc0) | 195d ago |
+| **[sloth_shift](https://github.com/shimano-yuuki/sloth_shift)** `Dart` | [`Merge pull request #48 from shimano-yuuki/feature_s…`](https://github.com/shimano-yuuki/sloth_shift/commit/d880a25e415c0342b91ddf02c5aee0babf5fb473) | 746d ago |
 <!-- activity ends -->
 
 ## Connect Four
