@@ -1,10 +1,7 @@
-# 3D草グラフ・ブートログ・statsカード・最近のアクティビティ を生成して main にコミットする。
-#
-# statsカードは vercel から直リンクせず、ここで取得してリポジトリに保存する
-# （rickstaa/rickstaa と同じ方針）。vercel 側が落ちてもREADMEが壊れなくなる。
+# ヘッダーとブートログのSVGを生成して main にコミットする。
 #
 # 生成物を main に置くので push トリガーは付けない（自分のコミットで再発火するため）。
-# 初回は Actions タブから手動実行すること。
+# 初回や、スクリプトを編集したあとは Actions タブから手動実行する。
 
 name: generate profile assets
 
@@ -21,19 +18,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # profile-3d-contrib/ 以下に night-view / gitblock など複数のSVGが出る
-      - name: generate 3d contribution svg
-        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # ヘッダーとスタック表記。APIを使わないので毎回同じ結果になる
-      - name: generate brand svg
+      # ヘッダー。APIを使わないので毎回同じ結果になる
+      - name: generate header svg
         run: node scripts/brand.mjs
 
       - name: generate boot log svg
@@ -41,39 +31,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: update recent activity section
-        run: node scripts/activity.mjs "${{ github.repository_owner }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # 取得できなかった場合は前回のSVGをそのまま残す（壊れた画像を掴まない）
-      - name: cache remote cards
-        env:
-          USER: ${{ github.repository_owner }}
-        run: |
-          mkdir -p assets
-          snapshot() {
-            url="$1"; out="$2"; tmp="$(mktemp)"
-            if curl -fsSL --max-time 60 -A "profile-readme" "$url" -o "$tmp" \
-              && head -c 400 "$tmp" | grep -q "<svg" \
-              && ! grep -q "Something went wrong" "$tmp"; then
-              mv "$tmp" "$out"
-              echo "updated $out"
-            else
-              echo "::warning::could not refresh $out — keeping the previous version"
-              rm -f "$tmp"
-            fi
-          }
-          common="bg_color=00000000&hide_border=true&title_color=39d353&text_color=8b949e"
-          snapshot "https://github-readme-stats.vercel.app/api?username=$USER&show_icons=true&icon_color=39d353&$common" assets/stats.svg
-          snapshot "https://github-readme-stats.vercel.app/api/top-langs/?username=$USER&layout=compact&langs_count=6&$common" assets/top-langs.svg
-          snapshot "https://github-readme-activity-graph.vercel.app/graph?username=$USER&theme=github-compact&hide_border=true&area=true&color=39d353&line=39d353&point=39d353&bg_color=00000000" assets/activity-graph.svg
-
       - name: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-3d-contrib assets README.md
+          git add -A assets
           if git diff --staged --quiet; then
             echo "no change"
           else

@@ -1,2 +1,0 @@
-# Botが対戦ごとに書く一時ファイル（Issueへのコメント本文）。履歴に残す必要はない。
-data/last-comment.md

@@ -114,9 +114,11 @@ ${rows}
 `
 }
 
+// renderStack は今は README に出していないが、戻したくなったら
+//   node -e "import('./scripts/brand.mjs').then(m=>require('fs').writeFileSync('assets/stack.svg',m.renderStack()))"
+// で書き出せる。
 if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) {
   await mkdir('assets', { recursive: true })
   await writeFile('assets/header.svg', renderHeader())
-  await writeFile('assets/stack.svg', renderStack())
-  console.log('wrote assets/header.svg, assets/stack.svg')
+  console.log('wrote assets/header.svg')
 }
