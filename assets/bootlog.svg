@@ -48,7 +48,7 @@
     <text class="ln l4" x="26" y="166" xml:space="preserve"><tspan class="mark">&gt; </tspan><tspan class="key">commits (1y)</tspan> <tspan class="dot">.......................................</tspan> <tspan class="val">257</tspan></text>
     <text class="ln l5" x="26" y="188" xml:space="preserve"><tspan class="mark">&gt; </tspan><tspan class="key">pull requests (1y)</tspan> <tspan class="dot">..................................</tspan> <tspan class="val">30</tspan></text>
     <text class="ln l6" x="26" y="210" xml:space="preserve"><tspan class="mark">&gt; </tspan><tspan class="key">stars earned</tspan> <tspan class="dot">.........................................</tspan> <tspan class="val">9</tspan></text>
-    <text class="ln l7" x="26" y="232" xml:space="preserve"><tspan class="mark">&gt; </tspan><tspan class="key">last push</tspan> <tspan class="dot">.......................</tspan> <tspan class="val">5h ago · shimano-yuuki</tspan></text>
+    <text class="ln l7" x="26" y="232" xml:space="preserve"><tspan class="mark">&gt; </tspan><tspan class="key">last push</tspan> <tspan class="dot">.......................</tspan> <tspan class="val">6h ago · shimano-yuuki</tspan></text>
     <text class="ln l8" x="26" y="254" xml:space="preserve"><tspan class="mark">&gt; </tspan><tspan class="key">uptime</tspan> <tspan class="dot">......................................</tspan> <tspan class="val">1,781 days</tspan></text>
   <text class="ln l8 prompt" x="26" y="284" xml:space="preserve"><tspan class="mark">&gt; </tspan><tspan class="val">READY</tspan></text>
   <rect class="cursor" x="93.2" y="273" width="8" height="15" />
